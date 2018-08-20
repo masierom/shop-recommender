@@ -10,7 +10,7 @@ Composed of:
 - gateway
 
 ## Mini API docs
-**Get product rate by productId**
+**Get recommended products by productId, userId**
 ```
 GET /api/reccomendations/{productId}/{userId}
 ```
