@@ -51,8 +51,8 @@ public class RecommenderService {
 			    .forEach(x -> reco.add(cService.getProduct(x.getKey())) );
 			
 			return reco;
+		} else {
+			return new ArrayList<Product>();
 		}
-		
-		return null;
 	}
 }
